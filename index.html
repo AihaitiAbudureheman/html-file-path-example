@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>File Path Example</title>
+        <meta name="description" content="File Path Example">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <!--
+            1.I have a folder on my Desktop called Test, and this HTML file id inside that Test folder
+            2.I have another folder called image-folder inside my Downloads folder
+            3.And inside that Downloads folder, I have an image called box.png
+            4.In order to link to that box.png file from my HTML file which is
+              located inside the Test folder on my Desktop
+            5.I need to use the absolute file path starting from system's root folder
+              like below
+            6.Check the instructions below for how I got this file path:
+        -->
+        <img src="C:\Users\baghr\Downloads\image-folder\box.png" alt="Box Image" />
+        <!--
+            Instructions<For Windows> You can also watch the attached video called Instructions.mp4:
+            1.Right Click your image or video file, then select <Properties>
+            2.After that take the value of the Location Property, the value of Location
+              property is the Folder path, in my case it is this part:
+              <C:\Users\baghr\Downloads\image-folder>
+            3.Add back slash and your file name with extension at the end of the folder path,
+              in my case, it will be like this:
+              <C:\Users\baghr\Downloads\image-folder\box.png>
+            4.And assign this full path to the src attribute, like the above example.
+            
+        -->
+    </body>
+</html>
